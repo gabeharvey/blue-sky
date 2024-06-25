@@ -1,15 +1,19 @@
 .one {
     background-color: blue;
+    color: beige;
 }
 
 .two {
     background-color: skyblue;
+    color: darkblue;
 }
 
 .three {
     background-color: yellow;
+    color: darkred;
 }
 
 .four {
     background-color: lawngreen;
+    color: darkslategray;
 }
