@@ -11,3 +11,10 @@ let two = false;
 
 console.log(typeof one);
 console.log(typeof two);
+
+let three = 50;
+let four = '50';
+
+console.log(three === four);
+console.log(three == four);
+console.log(three !== four);
