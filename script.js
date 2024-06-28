@@ -18,3 +18,10 @@ let four = '50';
 console.log(three === four);
 console.log(three == four);
 console.log(three !== four);
+
+const family = ['Gabe', 'Laura', 'Mary', 'Cora', 'Henry'];
+console.log(family[0]);
+console.log(family[1]);
+console.log(family[2]);
+console.log(family[3]);
+console.log(family[4]);
