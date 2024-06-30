@@ -30,3 +30,15 @@ console.log(family.length);
 for (let i=0; i<family.length; i++) {
     console.log(family[i] + ' is in the Harvey Family');
 }
+
+function isEqual(one, two) {
+    if (one === two) {
+        console.log("They are equal in type and value");
+    } else if (one == two) {
+        console.log('They are equal in value');
+    } else {
+        console.log('They are not equal');
+    } return;
+}
+
+isEqual (10, '10');
