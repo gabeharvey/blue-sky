@@ -53,3 +53,8 @@ for (let i=0; i<family.length; i++) {
 
 console.log(family[2]);
 console.log(family[3]);
+
+console.log(window);
+console.log(window.document);
+console.log(document.documentElement);
+console.log(document.head);
