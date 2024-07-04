@@ -58,3 +58,10 @@ console.log(window);
 console.log(window.document);
 console.log(document.documentElement);
 console.log(document.head);
+
+console.log(this);
+function helloThis() { 
+    console.log("Inside this function, this is " + this); 
+}
+
+helloThis();
